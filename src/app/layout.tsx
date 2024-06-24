@@ -17,6 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <footer>
+        <p>&copy; 2024 Our Company. All rights reserved.</p>
+      </footer>
     </html>
   );
 }
